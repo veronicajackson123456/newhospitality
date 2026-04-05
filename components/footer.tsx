@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className="bg-gradient-to-b from-emerald-50 to-teal-50 border-t border-gray-200">
       <div className="container mx-auto px-4 max-w-7xl py-16">
-        <div className="grid md:grid-cols-4 gap-12">
+        <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-10">
           {/* Brand */}
           <div>
             <Link href="/" className="flex items-center gap-3 mb-4">
@@ -83,14 +83,41 @@ export function Footer() {
                   Technology Integration
                 </Link>
               </li>
+            </ul>
+          </div>
+
+          {/* Legal */}
+          <div>
+            <h3 className="font-bold text-gray-900 mb-4">Legal</h3>
+            <ul className="space-y-3 text-sm">
+              <li>
+                <Link href="/legal" className="text-gray-700 hover:text-teal-600">
+                  Legal Hub
+                </Link>
+              </li>
               <li>
                 <Link href="/terms" className="text-gray-700 hover:text-teal-600">
-                  Terms & Conditions
+                  Terms &amp; Conditions
                 </Link>
               </li>
               <li>
                 <Link href="/privacy" className="text-gray-700 hover:text-teal-600">
                   Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/cookies" className="text-gray-700 hover:text-teal-600">
+                  Cookie Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/disclaimer" className="text-gray-700 hover:text-teal-600">
+                  Disclaimer
+                </Link>
+              </li>
+              <li>
+                <Link href="/accessibility" className="text-gray-700 hover:text-teal-600">
+                  Accessibility
                 </Link>
               </li>
             </ul>

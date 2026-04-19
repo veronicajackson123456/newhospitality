@@ -69,9 +69,10 @@ export function LegalLayout({ title, subtitle, lastUpdated, sections, children }
                 </div>
                 <div className="mt-4">
                   <p className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-3">Other policies</p>
-                  <div className="flex flex-col gap-1">
+                <div className="flex flex-col gap-1">
                     <Link href="/terms" className="text-xs text-gray-600 hover:text-orange-500 px-3 py-1.5 rounded-md hover:bg-orange-50 transition-colors">Terms &amp; Conditions</Link>
                     <Link href="/privacy" className="text-xs text-gray-600 hover:text-orange-500 px-3 py-1.5 rounded-md hover:bg-orange-50 transition-colors">Privacy Policy</Link>
+                    <Link href="/refund" className="text-xs text-gray-600 hover:text-orange-500 px-3 py-1.5 rounded-md hover:bg-orange-50 transition-colors">Refund Policy</Link>
                     <Link href="/cookies" className="text-xs text-gray-600 hover:text-orange-500 px-3 py-1.5 rounded-md hover:bg-orange-50 transition-colors">Cookie Policy</Link>
                     <Link href="/disclaimer" className="text-xs text-gray-600 hover:text-orange-500 px-3 py-1.5 rounded-md hover:bg-orange-50 transition-colors">Disclaimer</Link>
                     <Link href="/accessibility" className="text-xs text-gray-600 hover:text-orange-500 px-3 py-1.5 rounded-md hover:bg-orange-50 transition-colors">Accessibility</Link>

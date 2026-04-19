@@ -106,6 +106,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/refund" className="text-gray-700 hover:text-teal-600">
+                  Refund Policy
+                </Link>
+              </li>
+              <li>
                 <Link href="/cookies" className="text-gray-700 hover:text-teal-600">
                   Cookie Policy
                 </Link>

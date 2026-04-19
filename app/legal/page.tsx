@@ -2,12 +2,12 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { ChevronRight, FileText, Shield, Cookie, AlertTriangle, Eye, Mail, Phone, MapPin } from "lucide-react"
+import { ChevronRight, FileText, Shield, Cookie, AlertTriangle, Eye, Mail, Phone, MapPin, DollarSign } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Legal | HMCTS - Hospitality Software Solutions",
   description:
-    "Access all legal documents for HMCTS, including our Terms & Conditions, Privacy Policy, Cookie Policy, Disclaimer, and Accessibility Statement.",
+    "Access all legal documents for HMCTS, including our Terms & Conditions, Privacy Policy, Cookie Policy, Refund Policy, Disclaimer, and Accessibility Statement.",
 }
 
 const legalPages = [
@@ -32,6 +32,17 @@ const legalPages = [
     color: "text-teal-600",
     bg: "bg-teal-50",
     border: "border-teal-100",
+  },
+  {
+    href: "/refund",
+    icon: DollarSign,
+    title: "Refund Policy",
+    description:
+      "Our comprehensive refund policy outlining eligibility criteria, refund procedures, timelines, and exceptions for all HMCTS services.",
+    lastUpdated: "April 5, 2025",
+    color: "text-green-600",
+    bg: "bg-green-50",
+    border: "border-green-100",
   },
   {
     href: "/cookies",
@@ -143,8 +154,8 @@ export default function LegalPage() {
                   </li>
                   <li className="flex items-start gap-3">
                     <Phone className="w-4 h-4 text-orange-500 shrink-0 mt-0.5" />
-                    <a href="tel:+18459047626" className="text-sm text-gray-700 hover:text-orange-500 transition-colors">
-                      +1 (845) 904-7626
+                    <a href="tel:+15551234567" className="text-sm text-gray-700 hover:text-orange-500 transition-colors">
+                      +1 (555) 123-4567
                     </a>
                   </li>
                   <li className="flex items-start gap-3">

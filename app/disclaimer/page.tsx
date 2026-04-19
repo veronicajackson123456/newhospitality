@@ -163,7 +163,7 @@ export default function DisclaimerPage() {
         </p>
         <ul>
           <li><strong>Email:</strong> <a href="mailto:info@hospitalitysoftwaresolutions.com">info@hospitalitysoftwaresolutions.com</a></li>
-          <li><strong>Phone:</strong> +1 (845) 904-7626</li>
+          <li><strong>Phone:</strong> +1 (555) 123-4567</li>
           <li><strong>Address:</strong> 30 N Gould Street, Sheridan, Wyoming 82801, USA</li>
         </ul>
       </section>

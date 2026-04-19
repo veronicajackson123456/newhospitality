@@ -154,8 +154,8 @@ export default function LegalPage() {
                   </li>
                   <li className="flex items-start gap-3">
                     <Phone className="w-4 h-4 text-orange-500 shrink-0 mt-0.5" />
-                    <a href="tel:+18459047626" className="text-sm text-gray-700 hover:text-orange-500 transition-colors">
-                      +1 (845) 904-7626
+                    <a href="tel:+15551234567" className="text-sm text-gray-700 hover:text-orange-500 transition-colors">
+                      +1 (555) 123-4567
                     </a>
                   </li>
                   <li className="flex items-start gap-3">

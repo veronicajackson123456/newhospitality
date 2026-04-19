@@ -182,7 +182,7 @@ export default function RefundPolicyPage() {
             <strong>Email:</strong> <a href="mailto:info@hospitalitysoftwaresolutions.com">info@hospitalitysoftwaresolutions.com</a>
           </li>
           <li>
-            <strong>Phone:</strong> <a href="tel:+18459047626">+1 (845) 904-7626</a>
+                <strong>Phone:</strong> <a href="tel:+15551234567">+1 (555) 123-4567</a>
           </li>
           <li>
             <strong>Mailing Address:</strong> 30 N Gould Street, Sheridan, Wyoming 82801, USA

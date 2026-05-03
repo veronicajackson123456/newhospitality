@@ -42,10 +42,16 @@ export default function PrivacyPage() {
         <p>
           <strong>HMCTS LLC</strong> (Hospitality Management Consultancy &amp; Technology Solutions)<br />
           Incorporated in the State of Delaware, United States. Authentication Number: 204421330. EIN: 37-2155102.<br />
-          Registered Agent Address: 131 Continental Drive, Newark, Delaware 19713, USA.<br />
-          UK Office (operational): 84 Swinton Hall Road, Swinton, Manchester, M27 4BJ, United Kingdom.<br />
+          <br />
+          <strong>US Office:</strong><br />
+          131 Continental Drive, Newark, Delaware 19713, USA<br />
+          Phone: <a href="tel:+13024696267">+1 (302) 469-6267</a><br />
           Email: <a href="mailto:info@hospitalitysoftwaresolutions.com">info@hospitalitysoftwaresolutions.com</a><br />
-          Phone: <a href="tel:+443333355520">+44 (0)333 335 5520</a>
+          <br />
+          <strong>UK Office (operational):</strong><br />
+          84 Swinton Hall Road, Swinton, Manchester, M27 4BJ, United Kingdom<br />
+          Phone: <a href="tel:+443333355520">+44 (0)333 335 5520</a><br />
+          Email: <a href="mailto:info@hospitalitysoftwaresolutions.com">info@hospitalitysoftwaresolutions.com</a>
         </p>
       </section>
 

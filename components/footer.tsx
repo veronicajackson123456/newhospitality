@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Mail, Phone, MapPin, Linkedin } from "lucide-react"
+import { Mail, Phone, MapPin } from "lucide-react"
 
 export function Footer() {
   return (
@@ -25,15 +25,6 @@ export function Footer() {
             <p className="text-sm text-gray-400 leading-relaxed mb-5">
               Property management software built for independent hotels, boutique groups, and serviced apartments across the US and UK. Backed by 30+ years of collective hospitality industry expertise.
             </p>
-            <a
-              href="https://www.linkedin.com/company/hmcts-llc"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-teal-400 transition-colors"
-            >
-              <Linkedin className="w-4 h-4" />
-              Follow us on LinkedIn
-            </a>
           </div>
 
           {/* Solutions */}
@@ -151,7 +142,7 @@ export function Footer() {
                 </div>
               </li>
               <li>
-                <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">US Registered Agent</p>
+                <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">US Office</p>
                 <div className="flex items-start gap-3">
                   <MapPin className="w-4 h-4 text-teal-400 shrink-0 mt-0.5" />
                   <address className="text-gray-400 not-italic leading-relaxed">
@@ -159,6 +150,18 @@ export function Footer() {
                     Newark, Delaware 19713<br />
                     United States
                   </address>
+                </div>
+                <div className="flex items-center gap-3 mt-2">
+                  <Phone className="w-4 h-4 text-teal-400 shrink-0" />
+                  <a href="tel:+13024696267" className="text-gray-400 hover:text-teal-400 transition-colors">
+                    +1 (302) 469-6267
+                  </a>
+                </div>
+                <div className="flex items-center gap-3 mt-1">
+                  <Mail className="w-4 h-4 text-teal-400 shrink-0" />
+                  <a href="mailto:info@hospitalitysoftwaresolutions.com" className="text-gray-400 hover:text-teal-400 transition-colors break-all text-sm">
+                    info@hospitalitysoftwaresolutions.com
+                  </a>
                 </div>
               </li>
             </ul>
@@ -175,12 +178,6 @@ export function Footer() {
               <p className="text-xs text-gray-500">
                 &copy; {new Date().getFullYear()} HMCTS LLC &mdash; Hospitality Management Consultancy &amp; Technology Solutions. All rights reserved.
               </p>
-              <div className="flex items-center gap-4 text-xs">
-                <Link href="/terms" className="text-gray-500 hover:text-teal-400 transition-colors">Terms</Link>
-                <Link href="/privacy" className="text-gray-500 hover:text-teal-400 transition-colors">Privacy</Link>
-                <Link href="/cookies" className="text-gray-500 hover:text-teal-400 transition-colors">Cookies</Link>
-                <Link href="/acceptable-use" className="text-gray-500 hover:text-teal-400 transition-colors">AUP</Link>
-              </div>
             </div>
           </div>
         </div>

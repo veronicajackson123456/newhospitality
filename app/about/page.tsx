@@ -3,7 +3,7 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Shield, Globe, Users, Target, Linkedin, MapPin, Building } from "lucide-react"
+import { Shield, Globe, Users, Target, Linkedin, MapPin, Building, Phone, Mail } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -149,15 +149,22 @@ export default function AboutPage() {
                     <span><strong>EIN:</strong> 37-2155102</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-teal-500 font-bold mt-0.5">—</span>
-                    <span><strong>EIN:</strong> 37-2155102</span>
-                  </li>
-                  <li className="flex items-start gap-2">
                     <MapPin className="w-4 h-4 text-teal-500 shrink-0 mt-0.5" />
                     <address className="not-italic">
-                      131 Continental Drive, Newark,<br />Delaware 19713, United States<br />
-                      <span className="text-gray-500 text-xs">(Registered Agent Address)</span>
+                      131 Continental Drive, Newark,<br />Delaware 19713, United States
                     </address>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Phone className="w-4 h-4 text-teal-500 shrink-0" />
+                    <a href="tel:+13024696267" className="text-teal-600 hover:text-teal-700 transition-colors">
+                      +1 (302) 469-6267
+                    </a>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Mail className="w-4 h-4 text-teal-500 shrink-0" />
+                    <a href="mailto:info@hospitalitysoftwaresolutions.com" className="text-teal-600 hover:text-teal-700 transition-colors break-all">
+                      info@hospitalitysoftwaresolutions.com
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -182,9 +189,17 @@ export default function AboutPage() {
                       <span className="text-gray-500 text-xs">(UK Office — not a registered office)</span>
                     </address>
                   </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-teal-500 font-bold mt-0.5">—</span>
-                    <span><strong>UK Phone:</strong> +44 (0)333 335 5520</span>
+                  <li className="flex items-center gap-2">
+                    <Phone className="w-4 h-4 text-teal-500 shrink-0" />
+                    <a href="tel:+443333355520" className="text-teal-600 hover:text-teal-700 transition-colors">
+                      +44 (0)333 335 5520
+                    </a>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Mail className="w-4 h-4 text-teal-500 shrink-0" />
+                    <a href="mailto:info@hospitalitysoftwaresolutions.com" className="text-teal-600 hover:text-teal-700 transition-colors break-all">
+                      info@hospitalitysoftwaresolutions.com
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -203,7 +218,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-10 max-w-4xl mx-auto">
+            <div className="grid md:grid-cols-1 gap-10 max-w-2xl mx-auto">
               {/* Thomas McHugh */}
               <div className="bg-gray-50 rounded-2xl p-8 border border-gray-200">
                 <div className="flex items-start gap-5 mb-5">
@@ -220,7 +235,7 @@ export default function AboutPage() {
                   Thomas brings extensive experience in hospitality operations and technology implementation across independent hotel groups in the United Kingdom. With a background spanning hotel management and consultancy, he founded HMCTS to address the technology gap he observed firsthand during his operational career. Thomas serves as a UK-resident director of HMCTS LLC.
                 </p>
                 <a
-                  href="https://www.linkedin.com/in/thomas-mchugh-hmcts"
+                  href="https://www.linkedin.com/in/thomas-mchugh-a0666527/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors"
@@ -230,30 +245,6 @@ export default function AboutPage() {
                 </a>
               </div>
 
-              {/* Tristan Marsh */}
-              <div className="bg-gray-50 rounded-2xl p-8 border border-gray-200">
-                <div className="flex items-start gap-5 mb-5">
-                  <div className="w-16 h-16 bg-teal-600 rounded-xl flex items-center justify-center shrink-0">
-                    <span className="text-white font-bold text-xl">TM</span>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900">Tristan Marsh</h3>
-                    <p className="text-teal-600 font-medium">Sales Director</p>
-                  </div>
-                </div>
-                <p className="text-sm text-gray-600 leading-relaxed mb-5">
-                  Tristan leads all commercial activity at HMCTS, with responsibility for client acquisition, partner relationships, and market development across the US and UK. His background encompasses hospitality technology sales and business development, with a particular focus on the independent hotel and serviced apartment sectors. Tristan&apos;s deep understanding of operator needs directly shapes the commercial strategy of HMCTS.
-                </p>
-                <a
-                  href="https://www.linkedin.com/in/tristan-marsh-hmcts"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors"
-                >
-                  <Linkedin className="w-4 h-4" />
-                  View LinkedIn Profile
-                </a>
-              </div>
             </div>
           </div>
         </section>

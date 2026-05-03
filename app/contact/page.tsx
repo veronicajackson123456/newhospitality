@@ -93,23 +93,40 @@ export default function ContactPage() {
                   </ul>
                 </div>
 
-                {/* US Registered Agent */}
+                {/* US Office */}
                 <div className="bg-gray-50 rounded-2xl p-7 border border-gray-200">
                   <div className="flex items-center gap-2 mb-5">
-                    <div className="w-2 h-2 rounded-full bg-gray-400" />
-                    <p className="text-xs font-bold uppercase tracking-widest text-gray-500">US Registered Agent</p>
+                    <div className="w-2 h-2 rounded-full bg-blue-500" />
+                    <p className="text-xs font-bold uppercase tracking-widest text-gray-500">US Office</p>
                   </div>
-                  <div className="flex items-start gap-3">
-                    <MapPin className="w-5 h-5 text-gray-400 shrink-0 mt-0.5" />
-                    <address className="not-italic text-sm text-gray-600 leading-relaxed">
-                      131 Continental Drive<br />
-                      Newark, Delaware 19713<br />
-                      United States
-                    </address>
-                  </div>
-                  <p className="text-xs text-gray-400 mt-4 leading-relaxed">
-                    HMCTS LLC is incorporated in the State of Delaware (Entity No. 204421330). This is the registered agent address — for all enquiries please use the UK office contact details above.
-                  </p>
+                  <ul className="space-y-4">
+                    <li className="flex items-start gap-3">
+                      <MapPin className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" />
+                      <address className="not-italic text-sm text-gray-700 leading-relaxed">
+                        131 Continental Drive<br />
+                        Newark, Delaware 19713<br />
+                        United States
+                      </address>
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <Phone className="w-5 h-5 text-blue-500 shrink-0" />
+                      <a
+                        href="tel:+13024696267"
+                        className="text-sm text-gray-700 hover:text-blue-600 transition-colors"
+                      >
+                        +1 (302) 469-6267
+                      </a>
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <Mail className="w-5 h-5 text-blue-500 shrink-0" />
+                      <a
+                        href="mailto:info@hospitalitysoftwaresolutions.com"
+                        className="text-sm text-gray-700 hover:text-blue-600 transition-colors break-all"
+                      >
+                        info@hospitalitysoftwaresolutions.com
+                      </a>
+                    </li>
+                  </ul>
                 </div>
 
                 {/* Hours */}

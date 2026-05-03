@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Mail, Phone, MapPin, Linkedin } from "lucide-react"
+import { Mail, Phone, MapPin } from "lucide-react"
 
 export function Footer() {
   return (
@@ -25,15 +25,7 @@ export function Footer() {
             <p className="text-sm text-gray-400 leading-relaxed mb-5">
               Property management software built for independent hotels, boutique groups, and serviced apartments across the US and UK. Backed by 30+ years of collective hospitality industry expertise.
             </p>
-            <a
-              href="https://www.linkedin.com/company/hmcts-llc"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-teal-400 transition-colors"
-            >
-              <Linkedin className="w-4 h-4" />
-              Follow us on LinkedIn
-            </a>
+
           </div>
 
           {/* Solutions */}

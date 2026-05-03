@@ -108,9 +108,6 @@ export default function CookiesPage() {
             <strong>Google Ads</strong> &mdash; Advertising and remarketing.
           </li>
           <li>
-            <strong>LinkedIn Insight Tag</strong> &mdash; Professional audience analytics and advertising.
-          </li>
-          <li>
             <strong>Facebook Pixel</strong> &mdash; Social media advertising and conversion tracking.
           </li>
           <li>

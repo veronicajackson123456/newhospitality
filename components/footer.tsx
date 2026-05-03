@@ -176,7 +176,7 @@ export function Footer() {
             </p>
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3">
               <p className="text-xs text-gray-500">
-                &copy; {new Date().getFullYear()} HMCTS LLC &mdash; Hospitality Management Consultancy &amp; Technology Solutions. All rights reserved.
+                &copy; {new Date().getFullYear()} HMCTS LLC &mdash; Hotel Management Consultants &amp; Technical Solutions. All rights reserved.
               </p>
             </div>
           </div>

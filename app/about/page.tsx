@@ -3,7 +3,7 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Shield, Globe, Users, Target, MapPin, Building } from "lucide-react"
+import { Shield, Globe, Users, Target, Linkedin, MapPin, Building } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -215,6 +215,15 @@ export default function AboutPage() {
                 <p className="text-sm text-gray-600 leading-relaxed mb-5">
                   Thomas brings extensive experience in hospitality operations and technology implementation across independent hotel groups in the United Kingdom. With a background spanning hotel management and consultancy, he founded HMCTS to address the technology gap he observed firsthand during his operational career. Thomas serves as a UK-resident director of HMCTS LLC.
                 </p>
+                <a
+                  href="https://www.linkedin.com/in/thomas-mchugh-hmcts"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors"
+                >
+                  <Linkedin className="w-4 h-4" />
+                  View LinkedIn Profile
+                </a>
               </div>
 
               {/* Tristan Marsh */}
@@ -231,6 +240,15 @@ export default function AboutPage() {
                 <p className="text-sm text-gray-600 leading-relaxed mb-5">
                   Tristan leads all commercial activity at HMCTS, with responsibility for client acquisition, partner relationships, and market development across the US and UK. His background encompasses hospitality technology sales and business development, with a particular focus on the independent hotel and serviced apartment sectors. Tristan&apos;s deep understanding of operator needs directly shapes the commercial strategy of HMCTS.
                 </p>
+                <a
+                  href="https://www.linkedin.com/in/tristan-marsh-hmcts"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors"
+                >
+                  <Linkedin className="w-4 h-4" />
+                  View LinkedIn Profile
+                </a>
               </div>
             </div>
           </div>

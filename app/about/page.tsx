@@ -142,7 +142,11 @@ export default function AboutPage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-teal-500 font-bold mt-0.5">—</span>
-                    <span><strong>Entity Number:</strong> 204421330</span>
+                    <span><strong>Authentication Number:</strong> 204421330</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-teal-500 font-bold mt-0.5">—</span>
+                    <span><strong>EIN:</strong> 37-2155102</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-teal-500 font-bold mt-0.5">—</span>

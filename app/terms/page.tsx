@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { LegalLayout } from "@/components/legal-layout"
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | HMCTS LLC — Hospitality Software Solutions",
+  title: "Terms & Conditions | HMCTS LLC — Hotel Management Consultants & Technical Solutions",
   description:
     "The Terms and Conditions governing your use of the HMCTS LLC website and services. Applicable to users in the US and UK.",
 }
@@ -37,7 +37,7 @@ export default function TermsPage() {
           The website located at hospitalitysoftwaresolutions.com (the &ldquo;Site&rdquo;) is operated by HMCTS LLC
           &ndash; Hospitality Management Consultancy &amp; Technology Solutions (&ldquo;Company&rdquo;, &ldquo;us&rdquo;,
           &ldquo;our&rdquo;, and &ldquo;we&rdquo;). HMCTS LLC is incorporated in the State of Delaware, United States
-          (Entity Number: 204421330). Certain features of the Site may be subject to additional guidelines, terms, or
+          (Authentication Number: 204421330, EIN: 37-2155102). Certain features of the Site may be subject to additional guidelines, terms, or
           rules, which will be posted in connection with such features and are incorporated by reference into these Terms.
         </p>
         <p>

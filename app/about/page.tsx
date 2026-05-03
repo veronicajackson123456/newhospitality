@@ -151,8 +151,7 @@ export default function AboutPage() {
                   <li className="flex items-start gap-2">
                     <MapPin className="w-4 h-4 text-teal-500 shrink-0 mt-0.5" />
                     <address className="not-italic">
-                      131 Continental Drive, Newark,<br />Delaware 19713, United States<br />
-                      <span className="text-gray-500 text-xs">(Registered Agent Address)</span>
+                      131 Continental Drive, Newark,<br />Delaware 19713, United States
                     </address>
                   </li>
                 </ul>
@@ -216,7 +215,7 @@ export default function AboutPage() {
                   Thomas brings extensive experience in hospitality operations and technology implementation across independent hotel groups in the United Kingdom. With a background spanning hotel management and consultancy, he founded HMCTS to address the technology gap he observed firsthand during his operational career. Thomas serves as a UK-resident director of HMCTS LLC.
                 </p>
                 <a
-                  href="https://www.linkedin.com/in/thomas-mchugh-91978a407/"
+                  href="https://www.linkedin.com/in/thomas-mchugh-a0666527/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors"

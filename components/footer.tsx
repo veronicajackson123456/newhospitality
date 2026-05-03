@@ -142,7 +142,7 @@ export function Footer() {
                 </div>
               </li>
               <li>
-                <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">US Registered Agent</p>
+                <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">US Office</p>
                 <div className="flex items-start gap-3">
                   <MapPin className="w-4 h-4 text-teal-400 shrink-0 mt-0.5" />
                   <address className="text-gray-400 not-italic leading-relaxed">
@@ -150,6 +150,18 @@ export function Footer() {
                     Newark, Delaware 19713<br />
                     United States
                   </address>
+                </div>
+                <div className="flex items-center gap-3 mt-2">
+                  <Phone className="w-4 h-4 text-teal-400 shrink-0" />
+                  <a href="tel:+13024696267" className="text-gray-400 hover:text-teal-400 transition-colors">
+                    +1 (302) 469-6267
+                  </a>
+                </div>
+                <div className="flex items-center gap-3 mt-1">
+                  <Mail className="w-4 h-4 text-teal-400 shrink-0" />
+                  <a href="mailto:info@hospitalitysoftwaresolutions.com" className="text-gray-400 hover:text-teal-400 transition-colors break-all text-sm">
+                    info@hospitalitysoftwaresolutions.com
+                  </a>
                 </div>
               </li>
             </ul>
@@ -166,12 +178,6 @@ export function Footer() {
               <p className="text-xs text-gray-500">
                 &copy; {new Date().getFullYear()} HMCTS LLC &mdash; Hospitality Management Consultancy &amp; Technology Solutions. All rights reserved.
               </p>
-              <div className="flex items-center gap-4 text-xs">
-                <Link href="/terms" className="text-gray-500 hover:text-teal-400 transition-colors">Terms</Link>
-                <Link href="/privacy" className="text-gray-500 hover:text-teal-400 transition-colors">Privacy</Link>
-                <Link href="/cookies" className="text-gray-500 hover:text-teal-400 transition-colors">Cookies</Link>
-                <Link href="/acceptable-use" className="text-gray-500 hover:text-teal-400 transition-colors">AUP</Link>
-              </div>
             </div>
           </div>
         </div>

@@ -260,9 +260,10 @@ export default function AcceptableUsePage() {
         </p>
         <ul>
           <li><strong>Email:</strong> <a href="mailto:info@hospitalitysoftwaresolutions.com">info@hospitalitysoftwaresolutions.com</a></li>
-          <li><strong>Phone:</strong> <a href="tel:+443333355520">+44 (0)333 335 5520</a></li>
+          <li><strong>UK Office Phone:</strong> <a href="tel:+443333355520">+44 (0)333 335 5520</a></li>
           <li><strong>UK Office:</strong> 84 Swinton Hall Road, Swinton, Manchester, M27 4BJ, United Kingdom</li>
-          <li><strong>US Registered Agent:</strong> 131 Continental Drive, Newark, Delaware 19713, USA</li>
+          <li><strong>US Office Phone:</strong> <a href="tel:+13024696267">+1 (302) 469-6267</a></li>
+          <li><strong>US Office:</strong> 131 Continental Drive, Newark, Delaware 19713, USA</li>
         </ul>
       </section>
     </LegalLayout>

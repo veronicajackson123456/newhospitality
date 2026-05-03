@@ -2,9 +2,9 @@ import type { Metadata } from "next"
 import { LegalLayout } from "@/components/legal-layout"
 
 export const metadata: Metadata = {
-  title: "Acceptable Use Policy | HMCTS LLC — Hospitality Software Solutions",
+  title: "Acceptable Use Policy | HMCTS LLC — Hotel Management Consultants & Technical Solutions",
   description:
-    "The Acceptable Use Policy governing use of the HMCTS LLC platform, API, and services. Applies to all users and integrations.",
+    "Our Acceptable Use Policy outlines prohibited conduct and guidelines for appropriate use of HMCTS LLC services.",
 }
 
 const sections = [
@@ -35,7 +35,7 @@ export default function AcceptableUsePage() {
         <p>
           This Acceptable Use Policy (&ldquo;AUP&rdquo;) is issued by HMCTS LLC &ndash; Hospitality Management
           Consultancy &amp; Technology Solutions (&ldquo;HMCTS&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;, or
-          &ldquo;we&rdquo;), incorporated in the State of Delaware, United States (Entity Number: 204421330).
+          &ldquo;we&rdquo;), incorporated in the State of Delaware, United States (Authentication Number: 204421330, EIN: 37-2155102).
         </p>
         <p>
           This AUP applies to all users of the HMCTS platform, website, API, and associated services

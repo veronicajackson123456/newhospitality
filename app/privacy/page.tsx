@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { LegalLayout } from "@/components/legal-layout"
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | HMCTS LLC — Hospitality Software Solutions",
+  title: "Privacy Policy | HMCTS LLC — Hotel Management Consultants & Technical Solutions",
   description:
     "How HMCTS LLC collects, uses, and protects your personal information. Compliant with US state privacy law and UK GDPR.",
 }
@@ -41,7 +41,7 @@ export default function PrivacyPage() {
         </p>
         <p>
           <strong>HMCTS LLC</strong> (Hospitality Management Consultancy &amp; Technology Solutions)<br />
-          Incorporated in the State of Delaware, United States. Entity Number: 204421330. EIN: 37-2155102.<br />
+          Incorporated in the State of Delaware, United States. Authentication Number: 204421330. EIN: 37-2155102.<br />
           Registered Agent Address: 131 Continental Drive, Newark, Delaware 19713, USA.<br />
           UK Office (operational): 84 Swinton Hall Road, Swinton, Manchester, M27 4BJ, United Kingdom.<br />
           Email: <a href="mailto:info@hospitalitysoftwaresolutions.com">info@hospitalitysoftwaresolutions.com</a><br />

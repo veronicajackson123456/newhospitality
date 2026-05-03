@@ -3,7 +3,7 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Shield, Globe, Users, Target, Linkedin, MapPin, Building } from "lucide-react"
+import { Shield, Globe, Users, Target, Linkedin, MapPin, Building, Phone, Mail } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -154,6 +154,18 @@ export default function AboutPage() {
                       131 Continental Drive, Newark,<br />Delaware 19713, United States
                     </address>
                   </li>
+                  <li className="flex items-center gap-2">
+                    <Phone className="w-4 h-4 text-teal-500 shrink-0" />
+                    <a href="tel:+13024696267" className="text-teal-600 hover:text-teal-700 transition-colors">
+                      +1 (302) 469-6267
+                    </a>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Mail className="w-4 h-4 text-teal-500 shrink-0" />
+                    <a href="mailto:info@hospitalitysoftwaresolutions.com" className="text-teal-600 hover:text-teal-700 transition-colors break-all">
+                      info@hospitalitysoftwaresolutions.com
+                    </a>
+                  </li>
                 </ul>
               </div>
 
@@ -177,9 +189,17 @@ export default function AboutPage() {
                       <span className="text-gray-500 text-xs">(UK Office — not a registered office)</span>
                     </address>
                   </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-teal-500 font-bold mt-0.5">—</span>
-                    <span><strong>UK Phone:</strong> +44 (0)333 335 5520</span>
+                  <li className="flex items-center gap-2">
+                    <Phone className="w-4 h-4 text-teal-500 shrink-0" />
+                    <a href="tel:+443333355520" className="text-teal-600 hover:text-teal-700 transition-colors">
+                      +44 (0)333 335 5520
+                    </a>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Mail className="w-4 h-4 text-teal-500 shrink-0" />
+                    <a href="mailto:info@hospitalitysoftwaresolutions.com" className="text-teal-600 hover:text-teal-700 transition-colors break-all">
+                      info@hospitalitysoftwaresolutions.com
+                    </a>
                   </li>
                 </ul>
               </div>
